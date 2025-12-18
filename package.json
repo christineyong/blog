@@ -17,6 +17,7 @@
     "update-theme": "tsx scripts/update-theme.ts"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/mdx": "^4.3.12",
     "@astrojs/netlify": "^6.6.3",
     "@astrojs/rss": "^4.0.14",
@@ -52,6 +53,7 @@
     "prettier-plugin-astro": "^0.14.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.49.0"
+    "typescript-eslint": "^8.49.0",
+    "wrangler": "^4.55.0"
   }
 }
