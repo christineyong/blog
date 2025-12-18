@@ -43,6 +43,9 @@ export default defineConfig({
     sitemap()
   ],
   vite: {
+    define: {
+      __dirname: 'import.meta.url ? new URL(".", import.meta.url).pathname : undefined'
+    },
     resolve: {
       alias: {
         '@': path.resolve('./src')
