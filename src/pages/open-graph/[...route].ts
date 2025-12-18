@@ -2,6 +2,8 @@ import { getCollection } from 'astro:content'
 import { OGImageRoute } from 'astro-og-canvas'
 import { themeConfig } from '../../config'
 
+export const prerender = true
+
 const collectionEntries = await getCollection('posts')
 
 // Map the array of content collection entries to create an object.
